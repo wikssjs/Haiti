@@ -10,15 +10,15 @@ import sos_pwa  from '../public/sos_pwa.jpg'
 export default function Gastronomie() {
 
     return <main>
-        <div class={`${styles.jumbotron} jumbotron jumbotron-fluid`}>
+        <div class={`${styles.jumbotron} jumbotron jumbotron-fluid animate__animated animate__fadeIn`}>
             <div class={`${styles.container} container`}>
                 <h1 class="display-4">Gastronomie d'Haïti</h1>
-                <p class="lead">Découvrez la richesse culinaire d'Haïti à travers  de ses plats traditionnels.</p>
+                <p class="lead animate__animated animate__fadeInUp">Découvrez la richesse culinaire d'Haïti à travers  de ses plats traditionnels.</p>
             </div>
         </div>
         <div class={`${styles.container} container`}>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 animate__animated animate__fadeInLeft">
                     <div class="card mb-4 shadow-sm">
                         <Image className={styles.img} src={soup_joumou} alt="Soup joumou" class="card-img-top" />
                         <div class="card-body">
@@ -27,7 +27,7 @@ export default function Gastronomie() {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 animate__animated animate__fadeInRight">
                     <div class="card mb-4 shadow-sm">
                         <Image className={styles.img} src={griot} alt="Griot et pikliz" class="card-img-top" />
                         <div class="card-body">

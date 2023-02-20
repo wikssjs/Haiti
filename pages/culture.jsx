@@ -7,10 +7,10 @@ import fete from '../public/fete.jpg'
 
 export default function Culture() {
     return <main>
-        <div class={`${styles.jumbotron} jumbotron jumbotron-fluid`}>
+        <div class={`${styles.jumbotron} jumbotron jumbotron-fluid animate__animated animate__fadeIn`}>
             <div class={`${styles.container} container`}>
                 <h1 class="display-4">Culture</h1>
-                <p class="lead">Découvrez la culture riche et vibrante d&apos;Haïti, avec ses danses, ses chants, ses histoires et ses croyances. Explorez notre art, notre musique, nos fêtes et nos traditions, et plongez dans un monde de couleurs, de rythmes et de joie de vivre.</p>
+                <p class="lead animate__animated animate__fadeInUp">Découvrez la culture riche et vibrante d&apos;Haïti, avec ses danses, ses chants, ses histoires et ses croyances. Explorez notre art, notre musique, nos fêtes et nos traditions, et plongez dans un monde de couleurs, de rythmes et de joie de vivre.</p>
             </div>
         </div>
         <div class={`${styles.container} container`}>
