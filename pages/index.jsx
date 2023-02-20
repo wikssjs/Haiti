@@ -19,7 +19,7 @@ export default function Main() {
             <h2>Tourisme</h2>
             <p>
               Haïti est une destination touristique unique avec une variété
-              d'attractions naturelles et culturelles. Découvrez nos plages de
+              d&apos;attractions naturelles et culturelles. Découvrez nos plages de
               sable blanc, nos montagnes verdoyantes et nos sites historiques.
               Nous avons quelque chose pour tous les goûts.
             </p>
@@ -33,7 +33,7 @@ export default function Main() {
               Haïti est un endroit idéal pour les investissements et les
               opportunités commerciales. Découvrez les secteurs clés de notre
               économie et les raisons pour lesquelles de plus en plus
-              d'entreprises choisissent de faire des affaires avec nous.
+              d&apos;entreprises choisissent de faire des affaires avec nous.
             </p>
             <Link href="/affaire" className="btn btn-secondary">
               En savoir plus
@@ -59,7 +59,7 @@ export default function Main() {
           <div className="col-md-6">
       <h2>Culture</h2>
       <p>
-        Découvrez la culture riche et vibrante d'Haïti, avec ses danses,
+        Découvrez la culture riche et vibrante d&apos;Haïti, avec ses danses,
         ses chants, ses histoires et ses croyances. Explorez notre art,
         notre musique, nos fêtes et nos traditions, et plongez dans un
         monde de couleurs, de rythmes et de joie de vivre.

@@ -10,7 +10,7 @@ export default function Culture() {
         <div class={`${styles.jumbotron} jumbotron jumbotron-fluid`}>
             <div class={`${styles.container} container`}>
                 <h1 class="display-4">Culture</h1>
-                <p class="lead">Découvrez la culture riche et vibrante d'Haïti, avec ses danses, ses chants, ses histoires et ses croyances. Explorez notre art, notre musique, nos fêtes et nos traditions, et plongez dans un monde de couleurs, de rythmes et de joie de vivre.</p>
+                <p class="lead">Découvrez la culture riche et vibrante d&apos;Haïti, avec ses danses, ses chants, ses histoires et ses croyances. Explorez notre art, notre musique, nos fêtes et nos traditions, et plongez dans un monde de couleurs, de rythmes et de joie de vivre.</p>
             </div>
         </div>
         <div class={`${styles.container} container`}>
@@ -20,7 +20,7 @@ export default function Culture() {
                     <Image className={styles.img} src={art} alt="Haitian Artwork" />
                 </div>
                 <div class="col-md-6">
-                    <p>Haïti est célèbre pour son art unique et coloré. Les peintures, les sculptures et les artisanats traditionnels sont souvent inspirés par la nature, la religion et l'histoire haïtiennes. Les artistes haïtiens sont connus pour leur sens aigu de l'esthétique, leur maîtrise des couleurs et des textures, et leur capacité à raconter des histoires à travers leur art.</p>
+                    <p>Haïti est célèbre pour son art unique et coloré. Les peintures, les sculptures et les artisanats traditionnels sont souvent inspirés par la nature, la religion et l&apos;histoire haïtiennes. Les artistes haïtiens sont connus pour leur sens aigu de l&apos;esthétique, leur maîtrise des couleurs et des textures, et leur capacité à raconter des histoires à travers leur art.</p>
                 </div>
             </div>
             <h2>Musique</h2>
@@ -39,7 +39,7 @@ export default function Culture() {
                     <Image className={styles.img} src={fete} alt="Haitian Carnival" />
                 </div>
                 <div class="col-md-6">
-                    <p>Les fêtes et les traditions sont très importantes en Haïti. Le Carnaval, qui se déroule chaque année avant le début du Carême, est l'une des célébrations les plus connues du pays. Les traditions religieuses, comme le vodou, sont également très présentes en Haïti, avec des cérémonies et des rituels qui célèbrent les ancêtres, les esprits et les divinités.</p>
+                    <p>Les fêtes et les traditions sont très importantes en Haïti. Le Carnaval, qui se déroule chaque année avant le début du Carême, est l&apos;une des célébrations les plus connues du pays. Les traditions religieuses, comme le vodou, sont également très présentes en Haïti, avec des cérémonies et des rituels qui célèbrent les ancêtres, les esprits et les divinités.</p>
                 </div>
             </div>
         </div>

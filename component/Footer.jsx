@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h3>Site officiel d'Haïti</h3>
+            <h3>Site officiel d&apos;Haïti</h3>
             <p>© James Bell 2023, tous droits réservés.</p>
           </div>
           <div className="col-md-6">
