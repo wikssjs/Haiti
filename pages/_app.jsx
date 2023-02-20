@@ -5,6 +5,7 @@ import 'animate.css';
 import {Roboto_Flex,Montserrat} from '@next/font/google'
 import Layout from '../component/Layout';
 import dynamic from 'next/dynamic';
+import Scripts from '../component/Scripts';
 
 
 const roboto = Roboto_Flex({subsets:['latin']});
@@ -20,6 +21,7 @@ export default function App({ Component, pageProps }) {
      
     `}
   </style>
+    <Scripts/>
   <Layout>
   <Component {...pageProps} />
   </Layout>
